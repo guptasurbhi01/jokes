@@ -6,6 +6,10 @@ body{
     color: darkgreen;
     background-image: linear-gradient(to right ,#b92b27,#1565C0);
 }
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
 .main{
     width: 88%;
     height: 280px;
@@ -27,6 +31,8 @@ h1{
 }
 p{
     font-size: 25px;
+    animation: fadeIn .5s ease; /* Apply fadeIn animation */
+
 }
 button{
     color: darkgreen;
